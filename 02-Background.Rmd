@@ -1,0 +1,39 @@
+# Celtics \& Its Background
+
+## Boston Celtics
+
+The Boston Celtics, one of the oldest and domiannt NBA franchises, boasts a rich history and has significantly influenced the development of both the National Basketball Association and basketball as a prominent Olympic sport genre.
+
+Since its founding in Boston in 1946 [@britannica2023bostonceltics], the evolution of its core fan culture has been significantly shaped and driven by the sports fan community in Boston. This fan base gradually extended to encompass the greater New England area, with Boston as its focal point (see below table 3.1).
+
+```{r, echo=FALSE}
+lo<-read.csv("geoMap.csv",header=TRUE,sep=",")
+lo_1<-read.csv("geoMap copy.csv",header=TRUE,sep=",")
+merged_data <- merge(lo, lo_1, by="Region", all.x=TRUE, all.y=TRUE)
+library(ggplot2)
+library(tidyr)
+long_data <- gather(merged_data, key="Score_Type", value="Score", Jayson.Tatum, Boston.Celtics)
+```
+```{r}
+ggplot(long_data, aes(x=reorder(Region, Score), y=Score, fill=Score_Type)) + 
+  geom_bar(stat="identity") +
+  coord_flip() +
+  theme_minimal() +
+  labs(title="Table 3.1： Google Trends: Boston Celtics's Online Mention By Region", x="Region", y="Mention")
+```
+
+## Celtics's Target Audiences
+
+As partially reflected in table 3.1, the primary target fans and audience for the Boston Celtics are long-time basketball enthusiasts who identify themselves as sports fans in the city of Boston or the broader New England area. These fans particularly appreciate the team's historical success in the city. This preference aligns with the old tradition of the local Boston community, contributing to a strong Boston's local sports fan culture [@olguin2022magnetismceltics].
+
+The Celtics' fan culture and its connection to Boston's sports culture were significantly bolstered by the franchise's history of winning 17 championship titles. This achievement historically ties the Celtics with another of the NBA's greatest franchises, the LA Lakers, as they share the record for the most championships in league history. Additionally, the rivalry between these two teams has been a defining aspect of the NBA, particularly during iconic eras such as the Bill Russell (Celtics) and Jerry West (Lakers) era in the 1960s, the Larry Bird (Celtics) and Magic Johnson (Lakers) era in the 1980s, and the late 2000s rivalry between the Celtics' Big Three and Kobe Bryant of the Lakers. These historic matchups are officially cited as highlights of NBA history. Such a storied rivalry with the LA Lakers adds a unique dimension to the Celtics' brand narrative, further enriching its sports culture in Boston and the special rivalry tradition between the city of Boston and LA [@talkbasket2022celticshistory].
+
+## LA Lakers: Primary Competitor
+
+However, when compared to Celtics's primary competitor, particularly considering developments over the past 30 years, the LA Lakers have become a franchise with a significantly higher market value and a much larger international and national fan community [e.g., @sam2023nba; @skysports2021celticslakers]. 
+
+Compared to Boston, the LA Lakers and its owners  built the franchise's culture on the historical and rapid development of West Coast pop culture, particularly Hollywood. Enhanced greatly by LA's entertainment industry and Hollywood, the Lakers have not only gained much more exposure but also built a successful star-centered culture. This culture revolves around its star players, including Magic Johnson and Kareem Abdul-Jabbar in the 1980s, Shaquille O'Neal and Kobe Bryant in the last two decades, and LeBron James and Anthony Davis since the 2020s [@hbo2023winningtime].
+
+Furthermore, unlike Boston, which is traditionally regarded as a city centered around white culture, the Lakers appeal to a fan base with a more diverse racial and cultural background nationally and internationally. This contrast was particularly significant in the 1980s when the Celtics' white star, Larry Bird, was seen as the hero of Boston, contrasting with the Lakers' Magic Johnson, who was beloved by the culturally diverse LA fan base [@hbo2023winningtime].
+
+Despite the perception that the Celtics are less competitive in expanding their fan base and attracting new international fans, their consistent connections to the local Boston community have successfully maintained generations of support from Celtics fans and their families in Boston. As shown in Table 1, this steadfast engagement with the local community highlights the Celtics' core strength in increasing fan engagement within its own community.

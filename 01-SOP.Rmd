@@ -1,0 +1,5 @@
+# Statement of Purpose and Objectives
+
+The goal of this social media strategy is to enhance positive interactions between official Celtics tweets and fans. 
+
+To achieve this goal, we will utilize insights from social text data and user engagement data across various social media platforms, which will help us craft customized strategies and campaigns tailored for popular social media platforms. Our objectives are twofold: 1) significantly boost user engagement in online discussions, and 2) greatly increase positive sentiment in Twitter conversations about the Boston Celtics, aiming for an overall 24% positivity rate in these discussions.

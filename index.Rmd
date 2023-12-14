@@ -1,0 +1,24 @@
+--- 
+title: "Boston Celtics's Social Media Strategy Analytics Report"
+author: "Junqi Fu, Zhe Zhou, Zhenghao He, Yucan Zhang, Cassidy Leake"
+Professor: "Dr. Kathryn Coduto"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is group 1's final project in Professor Kathryn Coduto's CM739 class.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Executive Summary
+
+This report presents a comprehensive analysis and strategic plan for enhancing fan engagement of the Boston Celtics on online community. Utilizing advanced data analytics methods and tools such as automated text anallytics, network modeling, and social listening, we have scrutinized a year's worth of social media data, focusing on two major social media platforms: Twitter/X and TikTok. Our finings reveal distinct patterns in Celtics' fan online engagement, underscoring the potential of TikTok as a highly interactive community and Twitter/X as a hub for online engagements.
+
+Based on our data analysis, we propose the "#BleedGreen" campaign for TikTok and a pre-playoff campaign for Twitter/X. Leverage insights from social data, we aim to utilize these campaign to foster a stronger connection between the Celtics and our fan base. On TikTok, we aim to capitalize on the popularity of Celtics-related sportswear and appearl, encouraging fans to actively connect their interested contents and their Celtics pride.For Twitter/X, we focus on enhancing conversations around the franchise, using advanced computational approaches to identify and stimulate metrics that can drive fan engagement.
+
+Our strategic approach balances the rich history and local community ties of the franchise with the dynamic and evolving nature of social media engagement, positioning the Boston Celtics for continued success both on and off the court.
+

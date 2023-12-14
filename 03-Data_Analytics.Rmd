@@ -1,0 +1,26 @@
+# Data Analytics Plan and Procedures
+
+We collected large social data mentioning Celtics mainly primarily through the social listening platform Meltwater. Additionally, we placed particular emphasis on monitoring online discussions on platforms such as Twitter/X, ensuring a comprehensive understanding of the public sentiment and engagement related to the Celtics.
+
+## Data Collection from Meltwater
+
+To analyze general audience engagement trends over a year, we utilized Meltwater with a time range filter set from October 18, 2022 (the beginning of NBA 2022-2023 season), to October 17, 2023. Given the franchise's particular focus on fans and supporters in the city of Boston, locations of the collected data are also specified as limited in Boston. This analysis focuses on popular social media platforms, including Twitter, Reddit, TikTok, and Pinterest. The engagement data collected from Meltwater includes various metrics and insights that help us understand how users interact with content related to the Celtics across these platforms. Here's an overview of the engagement data we collected:
+
+- **Mentions trend by source**
+
+- **Engagement trend by source**
+
+- **Sentiment distribution by source**
+
+- **Top words and hashtags**
+
+## Twitter/X Data Collection \& Analytics
+
+### Boolean Logic Search Query for Twitter/X Data Collection
+
+“(”boston celtics“ OR ”#celtics“ OR ”\@celtics“ OR ”#bleedgreen“ OR ”#celticsnation“ OR
+”#celticsgameday“ OR “#celticswin” OR "jayson tatum" OR "jaylen brown" OR "al horford" OR "celtics vs" OR "celtics trade" OR "celtics draft" OR "celtics roster" OR "celtics injury" OR "celtics score" OR "celtics highlights" OR "celtics playoffs" OR "celtics finals" OR "celtics championship" OR "celtics rumors" OR "celtics signings" OR "celtics defense" OR "celtics offense" OR “#greenrunsdeep” OR “#banner18”) NOT (“green” OR “basketball” OR “nba”)”
+
+Utilizing a boolean logic search query, a sample of 20,000 tweets was collected from Meltwater, spanning from October 18, 2022, to October 17, 2023, sent/replied in Boston. The data analysis procedure concentrated on using tweets as the unit of analysis. To achieve the objective of boosting user engagement and increasing overall positive conversations in the online community, the analysis of tweet data primarily focused on two major metrics: tweet reach (engagement) and sentiment.
+
+Additionally, by creating a new variable labeled "topic" for each tweet, the aim is to specialize our focus on promoting user engagement in conversations specifically centered around the franchise, rather than solely focusing on all-star players or game-focused discussions. This approach allows for a more targeted strategy in enhancing the engagement and sentiment within the Celtics' online community.
