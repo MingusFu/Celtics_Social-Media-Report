@@ -1,13 +1,3 @@
-Welcome! 
+This report presents a comprehensive analysis and strategic plan for enhancing fan engagement of the Boston Celtics on online community. Utilizing advanced data analytics methods and tools such as automated text anallytics, network modeling, and social listening, we have scrutinized a year's worth of social media data, focusing on two major social media platforms: Twitter/X and TikTok. Our finings reveal distinct patterns in Celtics' fan online engagement, underscoring the potential of TikTok as a highly interactive community and Twitter/X as a hub for online engagements.
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
-
-This template provides a skeleton file structure that you can edit to create your book. 
-
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+Based on our data analysis, we propose the "#BleedGreen" campaign for TikTok and a pre-playoff campaign for Twitter/X. Leverage insights from social data, we aim to utilize these campaign to foster a stronger connection between the Celtics and our fan base. On TikTok, we aim to capitalize on the popularity of Celtics-related sportswear and appearl, encouraging fans to actively connect their interested contents and their Celtics pride.For Twitter/X, we focus on enhancing conversations around the franchise, using advanced computational approaches to identify and stimulate metrics that can drive fan engagement.
